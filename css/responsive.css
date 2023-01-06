@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+    /* Smaller Resolution Desktops and Laptops */
+    * {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

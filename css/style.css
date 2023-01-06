@@ -1,0 +1,834 @@
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+* a {
+    text-decoration: none;
+}
+
+body {
+    width: 1600px;
+    height: 900px;
+}
+
+main {
+    height: 900px;
+}
+
+/* debut navbar */
+
+.sncflogo {
+    max-height: 300px;
+    max-width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#navbar {
+    text-transform: uppercase;
+    background: linear-gradient(to right, blueviolet , red);
+}
+
+.navbarul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbarul li a {
+    color: white;
+    font-size: 24px;
+}
+
+/* fin navbar */
+
+/* début page Index */
+
+#mindex {
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+
+}
+
+.imgind {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#ind1 {
+    background-color: white;
+    margin-top: 20px;
+    height: 260px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img1 {
+    height: 220px;
+    width: 220px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#ind2 {
+    background-color:white;
+    margin-top: 5%;
+    height: 260px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img2 {
+    height: 220px;
+    width: 220px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#ind3 {
+    background-color: white;
+    margin-top: 5%;
+    height: 260px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-right: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img3 {
+    margin-left: 5px;
+    height: 220px;
+    width: 220px;
+    border-radius: 10px;
+}
+
+
+.tindex {
+    text-align: center;
+}
+
+
+.indart {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* fin page Index */
+
+/* page voyager */
+
+.imgvoy {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#mainvoyager {
+    height: 100%;
+}
+
+.reserv {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.voyres {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 800px;
+}
+
+.voyres1 {
+    width: 50%;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#itinéraire {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.ial {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+.voyart {
+    opacity: 0;
+}
+
+.iald1 {
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.iald2 {
+    height: 34px;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.iald3 {
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.iald4 {
+    height: 34px;
+    text-align: center;
+    border-style: none;
+    border-radius: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.ialdb {
+    margin-left: 5px;
+}
+
+.ialda {
+    margin-left: 10px;
+}
+
+.bual {
+    padding: 3px;
+    height: 30px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+/* fin page voyager */
+
+/* debut présentation */
+
+
+.imgpre {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#mainpre {
+    height: 900px;
+}
+
+#tipres {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+.th1pre {
+    margin-top: 10%;
+}
+
+.thpres {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tipre {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.apre {
+    font-size: 16px;
+}
+
+#card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 53%;
+    padding: 12px;
+}
+
+#card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-left: 53%;
+    margin-top: 2%;
+    padding: 12px;
+}
+
+#card3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 53%;
+    margin-top: 2%;
+    padding: 12px;
+}
+
+#card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-left: 53%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 12px;
+}
+
+
+/* fin page présentation */
+
+/* début de la page Boutique */
+
+.imgbou {
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.imgboucard {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.boudiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 900px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bout {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+.boucard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px;
+}
+
+.boucard2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.bouh1 {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* fin de la boutique */
+
+/* début de la page catégorie */
+
+.imgcate {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.catt {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catta {
+    padding: 10px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 25% 25% 25%;
+    text-align: center;
+    grid-gap: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gridimg {
+    height: 180px;
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.grida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* fin de la page catégorie */
+
+/* début page liste */
+
+.mainlist {
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.listimg {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.article {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 75%;
+    height: 150px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.imglist {
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.part1 {
+    width: 20%;
+    text-align: center;
+}
+
+.part2 {
+    width: 60%;
+    text-align: center;
+}
+
+.part3 {
+    width: 20%;
+    text-align: center;
+}
+
+/* fin page liste */
+
+/* début de la page détail */
+
+.imgdetail {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.imgdet1 {
+    height: 400px;
+    width: 400px;
+}
+
+.t1det {
+    height: 300px;
+    width: 100%;
+}
+
+.tdet {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+
+.detd1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.detd2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.dettitre {
+    margin-bottom: 5%;
+}
+
+.detarticle {
+    margin-bottom: 5%;
+}
+
+.detprix {
+    margin-bottom: 5%;
+}
+
+.detbutton {
+    width: 100px;
+    height: 40px;
+    padding: 3%;
+}
+
+/* fin de la page détail */
+
+/* début page compte */
+
+.maincom {
+    height: 900px;
+}
+
+.imgcom {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#loginp {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logimgg {
+    width: 40%;
+    height: 680px;
+}
+
+#login {
+    padding: 40px;
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    background-color: white;
+}
+
+.logicon {
+    display: inline;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.licon {
+    display: inline;
+    padding: 20px 40px 20px 40px;
+
+}
+
+.iconlog {
+    width: 20px;
+    height: 20px;
+}
+
+.tlog {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.usericon {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.mdpicon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.ilog1 {
+    width: 300px;
+    height: 26px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ilog2 {
+    width: 300px;
+    height: 26px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blog {
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bulog {
+    width: 120px;
+    margin-top: 40px;
+    padding: 3px;
+}
+
+.alog {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.alog a {
+    list-style: none;
+}
+
+/* fin de la page compte */
+
+/* début formulaire */
+
+#maininscript {
+    display: flex;
+    justify-content: center;
+}
+
+.imginsc {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+.inscript {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.tinscript {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.inputinscript {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.inputinscript2 {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.inputinscript3 {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 3px;
+    border-style: none;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.binscrpt {
+    width: 120px;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+/* début footer */
+
+footer {
+    position: relative;
+    background-color: black;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logomin {
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.flogo {
+    margin-bottom: 40px;
+}
+
+.flogo li {
+    list-style: none;
+    padding: 20px;
+    display: inline;
+}
+
+.flist li {
+    list-style: none;
+    padding: 20px;
+    display: inline;
+    color: white;
+}
+
+.flist li a {
+    color: white;
+    font-size: 20px;
+}
+
+#flogo {
+    margin-top: 30px;
+}
+
+/* fin footer */
